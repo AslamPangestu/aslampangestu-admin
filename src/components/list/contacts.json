@@ -1,0 +1,25 @@
+{
+  "collectionName": "components_list_contacts",
+  "info": {
+    "displayName": "Contacts",
+    "icon": "folder",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "name": {
+      "type": "string",
+      "required": true,
+      "unique": true
+    },
+    "content": {
+      "type": "string",
+      "required": true,
+      "unique": true
+    },
+    "icon_name": {
+      "type": "string",
+      "required": true
+    }
+  }
+}

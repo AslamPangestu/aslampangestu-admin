@@ -1,0 +1,29 @@
+{
+  "kind": "collectionType",
+  "collectionName": "blog_tags",
+  "info": {
+    "singularName": "blog-tag",
+    "pluralName": "blog-tags",
+    "displayName": "Blog Tag"
+  },
+  "options": {
+    "draftAndPublish": false
+  },
+  "pluginOptions": {
+    "i18n": {
+      "localized": true
+    }
+  },
+  "attributes": {
+    "name": {
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "type": "string",
+      "required": true,
+      "unique": true
+    }
+  }
+}
