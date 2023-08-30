@@ -34,15 +34,6 @@
       "type": "string",
       "required": true
     },
-    "short_description": {
-      "pluginOptions": {
-        "i18n": {
-          "localized": true
-        }
-      },
-      "type": "string",
-      "required": true
-    },
     "picture": {
       "type": "media",
       "multiple": false,
@@ -79,6 +70,15 @@
         }
       },
       "type": "richtext",
+      "required": true
+    },
+    "short_description": {
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "type": "text",
       "required": true
     }
   }
