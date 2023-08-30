@@ -50,12 +50,17 @@
     "like": {
       "pluginOptions": {
         "i18n": {
-          "localized": true
+          "localized": false
         }
       },
       "type": "biginteger",
       "default": "0",
-      "required": true
+      "required": false
+    },
+    "blog_tags": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::blog-tag.blog-tag"
     }
   }
 }
