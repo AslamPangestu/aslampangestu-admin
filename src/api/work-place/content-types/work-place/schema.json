@@ -1,0 +1,36 @@
+{
+  "kind": "collectionType",
+  "collectionName": "work_places",
+  "info": {
+    "singularName": "work-place",
+    "pluralName": "work-places",
+    "displayName": "Work Place"
+  },
+  "options": {
+    "draftAndPublish": false
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "name": {
+      "type": "string",
+      "required": true
+    },
+    "start_date": {
+      "type": "date",
+      "required": true
+    },
+    "end_date": {
+      "type": "date",
+      "required": true
+    },
+    "job_role": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::job-role.job-role"
+    },
+    "description": {
+      "type": "richtext",
+      "required": true
+    }
+  }
+}
