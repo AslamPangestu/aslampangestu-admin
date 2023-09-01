@@ -9,13 +9,11 @@
   "attributes": {
     "name": {
       "type": "string",
-      "required": true,
-      "unique": true
+      "required": true
     },
     "content": {
       "type": "string",
-      "required": true,
-      "unique": true
+      "required": true
     },
     "icon_name": {
       "type": "string",
