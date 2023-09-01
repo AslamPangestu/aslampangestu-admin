@@ -20,8 +20,7 @@
       "required": true
     },
     "end_date": {
-      "type": "date",
-      "required": true
+      "type": "date"
     },
     "job_role": {
       "type": "relation",
