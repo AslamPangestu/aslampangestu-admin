@@ -22,9 +22,9 @@
     "end_date": {
       "type": "date"
     },
-    "job_role": {
+    "job_roles": {
       "type": "relation",
-      "relation": "oneToOne",
+      "relation": "oneToMany",
       "target": "api::job-role.job-role"
     },
     "description": {
