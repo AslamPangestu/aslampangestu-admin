@@ -61,6 +61,13 @@
       "type": "relation",
       "relation": "oneToMany",
       "target": "api::blog-tag.blog-tag"
+    },
+    "description": {
+      "type": "text",
+      "required": true
+    },
+    "keyword": {
+      "type": "string"
     }
   }
 }
