@@ -13,8 +13,7 @@
   "pluginOptions": {},
   "attributes": {
     "path": {
-      "type": "string",
-      "required": true
+      "type": "string"
     },
     "title": {
       "type": "string",
