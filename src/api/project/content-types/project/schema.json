@@ -76,6 +76,11 @@
       "relation": "manyToOne",
       "target": "api::project-type.project-type",
       "inversedBy": "projects"
+    },
+    "work_place": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::work-place.work-place"
     }
   }
 }
