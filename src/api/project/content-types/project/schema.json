@@ -81,6 +81,16 @@
       "type": "relation",
       "relation": "oneToOne",
       "target": "api::work-place.work-place"
+    },
+    "is_highlight": {
+      "pluginOptions": {
+        "i18n": {
+          "localized": false
+        }
+      },
+      "type": "boolean",
+      "default": false,
+      "required": true
     }
   }
 }
