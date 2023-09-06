@@ -80,6 +80,15 @@
       },
       "type": "text",
       "required": true
+    },
+    "closing_remarks": {
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "type": "text",
+      "required": true
     }
   }
 }
