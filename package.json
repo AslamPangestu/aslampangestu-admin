@@ -9,12 +9,16 @@
     "build": "strapi build",
     "strapi": "strapi"
   },
-  "devDependencies": {},
+  "devDependencies": {
+    "@babel/core": "^7.22.15",
+    "@babel/eslint-parser": "^7.22.15",
+    "eslint": "^8.48.0"
+  },
   "dependencies": {
-    "@strapi/plugin-i18n": "4.12.7",
-    "@strapi/plugin-users-permissions": "4.12.7",
+    "@strapi/plugin-i18n": "4.13.3",
+    "@strapi/plugin-users-permissions": "4.13.3",
     "@strapi/provider-upload-cloudinary": "^4.12.7",
-    "@strapi/strapi": "4.13.2",
+    "@strapi/strapi": "4.13.3",
     "pg": "8.11.3"
   },
   "author": {
